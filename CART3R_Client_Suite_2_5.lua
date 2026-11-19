@@ -7,7 +7,6 @@
     CLIENT SUITE 2.5
 
     Roblox Studio / Luau
-
     Single LocalScript
 
     Place: StarterPlayerScripts
@@ -2013,7 +2012,7 @@ slider(AIMPage, "FOV radius (px)", 20, 400, Config.FOVRadius, function(value)
     cachedTarget = nil
 end)
 
-slider(AIMPage, "Aim speed", 1, 100, Config.AimSpeed, function(value)
+slider(AIMPage, "Aim speed", 1, 400, Config.AimSpeed, function(value)
     Config.AimSpeed = value
 end)
 
